@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+body {
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(42, 42, 42);
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  width: 100%;
+  height: 14%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: grey;
+}
+
+.nav__content {
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo {
+  /* font-family: 'Times New Roman', Times, serif ; */
+  font-size: 26px;
+  /* font-weight: 600; */
+  color: rgb(82, 20, 198);
+  padding-left: 10px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+}
+
+ul li a {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  border-top-color: rgb(82, 20, 198);
+  border-bottom-color: rgb(82, 20, 198);
+  color: rgb(82, 20, 198);
+}
+
+ul li a:active{
+  color:rgb(46, 46, 46);
+}
+.section{
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.section__container {
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitle {
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 600;
+}
+
+.description {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.action__btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.action__btns button {
+  font-size: 1rem;
+  background-color: grey;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+.portfolio {
+  color: white;
+}
+
+.portfolio:hover {
+  background-color:rgb(46, 46, 46);
+  color: white;
+}
+.portfolio:active {
+  background-color:rgb(46, 46, 46);
+  color: rgb(46, 46, 46);
+}
+
+.image {
+  display: grid;
+  place-items: center;
+}
+
+.image img {
+  width: min(25rem, 90%);
+  border-radius: 100%;
+  transition: transform .5s;
+}
+.image img:hover {
+  transform: scale(1.1);
+}
+.section__container1{
+  margin: auto;
+  padding: 1rem;
+}
+.about{
+    padding-top: 150px;
+    padding-bottom: 120px;
+    /* font-family: "Poppins", sans-serif; */
+    /* letter-spacing: 1px;   */
+}
+.about{
+  padding-top: 150px;
+  padding-bottom: 220px;}
+
+.skills{
+  padding-top: 0px;
+}
+.skillbar{
+  
+  width:70%;
+  background-color: #ddd;
+  border-radius:15px;
+}
+.s{
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border-radius:15px;
+}
+@keyframes a1 {
+  0%{width:0%;} 100%{width:90%;} 
+}
+@keyframes a2 {
+  0%{width:0%;} 100%{width:85%;} 
+}
+@keyframes a3 {
+  0%{width:0%;} 100%{width:70%;} 
+}
+@keyframes a4 {
+  0%{width:0%;} 100%{width:90%;} 
+}
+@keyframes a5 {
+  0%{width:0%;} 100%{width:75%;} 
+}
+.s1{width:90%;animation:a1 6s 5s infinite;background-color:  #04AA6D;}
+.s2{width:85%;animation:a2 6s 5s infinite;background-color: #2196F3;}
+.s3{width:70%;animation:a3 6s 5s infinite;background-color: #f44336;}
+.s4{width:90%;animation:a4 6s 5s infinite;background-color: rgb(205, 205, 4);}
+.s5{width:75%;animation:a5 6s 5s infinite;background-color: #808080;}
+
+
+.section__container3 {
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap:100px; */
+}
+.content2 {
+  padding-top: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box{
+  transition: transform .5s;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.skills{
+  padding-bottom: 60px;
+}
+.projects{
+  padding-top: 50px;
+  padding-bottom: 100px;}
+
+.contacts{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
